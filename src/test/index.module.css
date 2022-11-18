@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 2.5px;
+
+    color: white;
+}
+.btn:active {
+    transform: translateY(1px);
+}
+.btn:hover {
+    opacity: 0.75;
+}
+
+.plus {
+    border: 2px solid rgb(255, 98, 71);
+    background-color: rgb(255, 98, 71, 0.75);
+}
+
+.minus {
+    border: 2px solid rgb(71, 89, 255);
+    background-color: rgba(71, 89, 255, 0.75);
+}
